@@ -1,0 +1,177 @@
+.inner-page-banner-bg{
+    background-image: -webkit-linear-gradient(297deg, #011a2e 30%, #074866 52%);
+  }
+  .banner-inr{
+    padding: 137px 0px 50px 0px;
+  }
+  .ecommerceimage{
+      width: 100%;
+      height: 250px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 20px;
+  border-radius: 100%;
+  margin-top: 40px;
+  }
+  .ecommerceimage:hover{
+    border-radius: 100%;
+border-width: 20px;
+border-color: rgb(50, 187, 187);
+border-style: solid;
+}
+  #ecommercetop .pcommerceprimary{
+    color: white;
+    font-size: 20px;
+  }
+  
+  
+  .inner-page-banner .banner-right-image .platform-position{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .servicestop{
+      display: flex;
+     
+  }
+  .servicesbtn{
+      background-color: rgba(26, 153, 175, 0);
+      display: block;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 5px;
+      margin: 10px;
+  }
+  .textheading{
+      color: rgb(104, 197, 250);
+      font-size: 25px;
+      margin: 15px 0px;
+  }
+  .servicestext{
+    color: rgb(224, 236, 243);
+    font-size: 18px;
+  }
+  /* ||||||||||||||||||||||||||||||||||||||||||service Card||||||||||||||||||||||||||||||||||| */
+  .portfoliocardimage{
+    width: 100%;
+    height: 100%;
+}
+.Servicecarddesign{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+@media only screen and (max-width:991px) {
+    .Servicecarddesign{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: black;
+    }
+}
+@media only screen and (max-width:667px) {
+    .Servicecarddesign{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+}
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(7, 91, 105);
+    color: white;
+    transform: rotateY(180deg);
+    background-image: -webkit-linear-gradient(67deg, #1a2229 10%, #3a3939 50%);
+
+  }
+  .fliptitle{
+      padding-top: 55px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      font-size: 20px;
+  }
+ .fliptext{
+   color: white;
+   font-size: 16px;
+   padding: 10px;
+   margin: 0px 10px;
+   text-align: center;
+ }
+  /* ||||||||||||||||||||||||||||||||Animation|||||||||||||||||||||||||||||||||| */
+  
+  .svgsection3{
+    margin-top: -250px;
+  }
+  .svgsection3{
+    margin-top: -475px;
+  }
+  @media only screen and (max-width: 1399px){
+    .svgsection4 {
+      margin-top: -60px;
+      margin-bottom: 118px;
+  }
+    .svgsection3 {
+      margin-top: -440px;
+  }
+  }
+  
+  @media only screen and (max-width: 991px){
+  .svgsection3 {
+    margin-top: -294px;
+  }
+  .svgsection4 {
+    margin-top: -60px;
+    margin-bottom: 63px;
+  }
+  }
+  @media only screen and (max-width: 630px){
+    .svgsection3 {
+      margin-top: -294px;
+    }
+    .svgsection4 {
+      margin-top: -15px;
+      margin-bottom: 158px;
+    }
+    }
+    

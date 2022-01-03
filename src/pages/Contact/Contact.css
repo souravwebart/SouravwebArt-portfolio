@@ -1,0 +1,90 @@
+.contact-top{
+    padding-top: 170px;
+    padding-bottom: 50px;
+
+}
+.contact{
+    background-color: rgb(22, 22, 22);
+    padding-bottom: 100px;
+
+}
+.contacttoph1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.contacttoptext{
+    color: rgb(167, 164, 164);
+    font-size: 20px;
+    text-align: center;
+}
+.contactcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;   
+}
+@media only screen and (max-width:991px) {
+    .contactcard{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+
+    }
+    .contact-top{
+        padding-top: 120px;
+    }
+}
+.contactcardimg{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 100%;
+}
+.contact-row{
+    background-color: rgb(63, 62, 62);
+    margin: 10px 10px;
+    border-radius: 25px;
+    /* width: 100%; */
+    height: 210px;
+    box-shadow: 0 4px 6px 0 rgb(92 91 91 / 99%);
+    /* padding: 0px 30px; */
+}
+.contactcardh1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.contactcardtext{
+    color: white;
+text-align: center;
+font-size: 18px;
+}
+
+.contactcardbtn1{
+    background-color: #F35E53;
+    width: 100%;
+}
+.contactcardbtn2{
+    background-color: #43C554;
+    width: 100%;
+}
+.contactcardbtn3{
+    background-color: #158AD9;
+    width: 100%;
+}
+.contactcardbutton{
+ color: white;
+ padding: 15px;
+ text-align: center;
+ font-size: 16px;
+ list-style-type: none;
+ text-decoration: none;
+}
+.contactcardbuttonanchor:hover{
+    list-style-type: none;
+ text-decoration: none;
+ color: white;
+}
