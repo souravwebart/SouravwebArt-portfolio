@@ -54,7 +54,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid">
+            <div className="container-fluid about-details-section">
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-8 order-1 order-lg-2 hero-img Aboutscreen" data-aos="fade-right">
                         <div className="aboutsectioncard">
