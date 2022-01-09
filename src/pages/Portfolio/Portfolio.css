@@ -469,6 +469,8 @@ to {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
   .loadmorebtn{
     background-color: rgba(26, 153, 175, 0);
