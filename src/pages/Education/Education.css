@@ -1,10 +1,19 @@
-.education-section{
+/* .education-section{
   background-image: -webkit-linear-gradient(3deg, #1f7698 29%, #191925 51%);
+} */
+#video1{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }
-.educationmiddle{
-  background-color: #191925;
-  padding-bottom: 20px;
 
+.educationmiddle {
+  background-color: #ffffff38;
+  padding-bottom: 20px;
 }
 .educationbuttom{
   /* background-image: -webkit-linear-gradient(65deg, #080808 61%, #3d3e3f 67%); */
@@ -35,11 +44,11 @@
   font-family: 'Poppins', sans-serif;
 }
 .Educationcart{
-    background-color: #3a3939;
+  background-color: #1f26374d;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 99%);
     padding: 20px 20px;
     margin: 15px;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgb(92 91 91 / 99%);
     -webkit-animation-name: fadeInLeft;
     -moz-animation-name: fadeInLeft;
     -o-animation-name: fadeInLeft;
@@ -231,161 +240,82 @@ to {
     }
 }
 .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
+  box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
     text-align: center;
     width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+    background-color: #252525b8;
     height: 460px;
 }
   
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 460px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+  
   @media only screen and (max-width:1199px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 615px;
 }
-  
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 615px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+
   }
   .educationbuttom {
     padding: 0 80px 80px 80px;
 }
   @media only screen and (max-width:991px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 480px;
 }
 .educationbuttom {
   padding: 0 20px 80px 20px;
 }
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 480px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+
   }
   @media only screen and (max-width:800px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 500px;
 }
   
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 500px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+
   }
   @media only screen and (max-width:666px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 430px;
 }
   
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 430px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
   }
   @media only screen and (max-width:440px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 565px;
 }
   
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 565px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+
   }
   @media only screen and (max-width:299px) {
     .training-card {
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
-    text-align: center;
-    width: 100%;
-    /* background-image: -webkit-linear-gradient(63deg, #484a4a 9%, #080808 50%); */
-    background-color: #252525;
+      box-shadow: 0 2px 8px 0 rgb(9 9 9 / 99%);
+      text-align: center;
+      width: 100%;
+      background-color: #252525b8;
     height: 615px;
 }
   
-  .training-card::before {
-    content: "";
-    width: 100%;
-    height: 615px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    z-index: -1;
-  }
+
   }
   .training-card-icon-1 {
   
@@ -505,11 +435,11 @@ to {
     padding: 10px;
   }
   .coarse-card{
-    box-shadow: 0 4px 8px 0 rgb(194 193 191 / 99%);
+    box-shadow: 0 2px 8px 0 rgb(0 255 245 / 28%);
+    background-color: #12162142;
     text-align: center;
     width: 100%;
     /* background-image: -webkit-linear-gradient(137deg, #484a4a 50%, #161616 9%); */
-    background-color: #484a4a;
     height: 500px;
     border-radius: 35px;
   }
@@ -537,7 +467,7 @@ to {
   border-width: 20Px;
   border-style: solid;
   border-radius: 100%;
-  color: #323435;
+  color: #244897;
 }
 .course-inner-boxes{
   color: aqua;

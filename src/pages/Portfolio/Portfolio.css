@@ -1,5 +1,5 @@
 .portfolio-section {
-  background-color: black;
+  /* background-color: black; */
   margin-bottom: -10px;
 }
 .svgsection1{
@@ -61,10 +61,19 @@ to {
     margin-bottom: 158px;
   }
   }
+  #video3{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
   
   
 .portfolio-Top{
-  background-image: -webkit-linear-gradient(265deg, #0a2b46 37%, #080808 50%);
+  /* background-image: -webkit-linear-gradient(265deg, #0a2b46 37%, #080808 50%); */
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,13 +86,12 @@ to {
     margin-bottom: 50px;
 }
 .portfolioscreen{
-    margin-top: 250px;
+    margin-top: 100px;
     margin-bottom: 250px;
 }
 .portfoliotopimage{
     width: 100%;
     height: 500px;
-    border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -129,9 +137,6 @@ to {
     font-size: 2rem;
     padding: 16px;
     text-align: left;
-    background-color: #07070757;
-    border-radius: 45px;
-    box-shadow: 0 7px 8px 0 rgb(117 180 232 / 99%);
     -webkit-animation-name: fadeInLeft;
     -moz-animation-name: fadeInLeft;
     -o-animation-name: fadeInLeft;
@@ -200,14 +205,14 @@ to {
 .h2-portfolioprimary{
     text-align: left;
     font-size: 20px;
-    color: #cdd4df;
+    color: #ffffff;
     line-height: 25px;
     font-weight: 400;
     padding: 27px 15px;
     font-family: 'Poppins', sans-serif;
-    background-color: #0a2b46;
+    background-color: #0a2b4629;
     border-radius: 45px;
-    box-shadow: 0 15px 8px 0 rgb(23 23 23 / 99%);
+    box-shadow: 0 2px 8px 0 rgb(18 13 86 / 99%);
     -webkit-animation-name: fadeInLeft;
     -moz-animation-name: fadeInLeft;
     -o-animation-name: fadeInLeft;
@@ -274,16 +279,16 @@ to {
   }
 }
 .portfoliobtn{
-    display: block;
-  background-color: rgb(6, 82, 126);
+  display: block;
+  background-color: rgb(6 82 126 / 16%);
   list-style-type: none;
   text-decoration: none;
   color: white;
   font-size: 20px;
   border-radius: 30px;
   padding: 10px;
-  margin-top: 15px;
-  box-shadow: 0 15px 8px 0 rgb(23 23 23 / 99%);
+  margin-top: 40px;
+  box-shadow: 0 2px 8px 0 rgb(23 23 23 / 99%);
   -webkit-animation-name: fadeInLeft;
     -moz-animation-name: fadeInLeft;
     -o-animation-name: fadeInLeft;
@@ -354,24 +359,36 @@ to {
     width: 100%;
     height: 100%;
 }
-  .Portfoliocarddesign {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: black;
+.Portfoliocarddesign {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #0000000f;
+  width: 80%;
+  margin: 130px auto 60px auto;
 }
 @media only screen and (max-width:991px) {
 
     .Portfoliocarddesign{
         display: grid;
         grid-template-columns: 1fr 1fr;
-      
-       
-        background-color: black;
+        background-color: #0000000f;
+        margin: 70px auto 30px auto;
+        width: 90%;
+      }
+      .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 300px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px;
+        margin-bottom: 20px;
     }
+    .portfolioscreen{
+      margin-top: 150px;
+      margin-bottom: 250px;
+  }
     .portfoliotopimage {
-      width: 100%;
-      height: 500px;
-          border-radius: 100%;
+      width: 70%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -382,16 +399,27 @@ to {
 }
 @media only screen and (max-width:667px) {
   
-    .Portfoliocarddesign{
-        display: grid;
-        grid-template-columns: 1fr;
-
-        background-color: black;
-    }
+  .Portfoliocarddesign{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #0000000f;
+    margin: 70px auto 30px auto;
+    width: 90%;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+    .portfolioscreen{
+      margin-top: 150px;
+      margin-bottom: 250px;
+  }
     .portfoliotopimage {
-      width: 100%;
-      height: 500px;
-          border-radius: 100%;
+      width: 70%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -469,7 +497,7 @@ to {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 80px;
 }
   .loadmorebtn{

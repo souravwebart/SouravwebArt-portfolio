@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Contact.css";
+import videoBg from './video/bg1.mp4';
+
 
 function Contact() {
     const [state] = React.useState({
@@ -9,9 +11,10 @@ function Contact() {
 
     });
     return (
+        <>
+        <video autoPlay loop muted id="video5"><source src={videoBg} type='video/mp4'/></video>
         <div className="contact">
             <div className="container">
-                
                     <div className="contact-top">
                         <h1 className="contacttoph1">Contact Me</h1>
                         <p className="contacttoptext">If you wanna get in touch, talk to me about a project collaboration feel free to contact me using the below options. I will contact you as soon as possible within 24 to 48 hours.</p>
@@ -47,6 +50,7 @@ function Contact() {
             </div>
 
         </div>
+        </>
     )
 }
 

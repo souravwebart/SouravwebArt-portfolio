@@ -45,46 +45,26 @@
   
   /* Style the counter project-actions */
   .about-action-1 {
-    box-shadow: 0 4px 8px 0 rgb(92 91 91 / 99%);
+    box-shadow: 0 2px 8px 0 rgb(255 255 255 / 99%);
     text-align: center;
     width: 100%;
-    background-image: -webkit-linear-gradient(63deg, #1f7698 9%, #080808 50%);
+    background-image: -webkit-linear-gradient(63deg, #1f769826 9%, #08080826 50%);
     height: 100px;
     height: 350px;
 }
   
-  .about-action-1::before {
-    content: "";
-    width: 100%;
-    height: 350px;
-    border-radius: 50px;
-    border: 1px solid rgb(3, 3, 3);
-    position: absolute;
-    bottom: 15px;
-    right: 9px;
-    z-index: -1;
-  }
+ 
   @media screen and (max-width: 545px) {
     .about-action-1 {
-      box-shadow: 0 4px 8px 0 rgb(92 91 91 / 99%);
+      box-shadow: 0 2px 8px 0 rgb(255 255 255 / 99%);
       text-align: center;
       width: 100%;
-      background-image: -webkit-linear-gradient(63deg, #1f7698 9%, #080808 50%);
+      background-image: -webkit-linear-gradient(63deg, #1f769826 9%, #08080826 50%);
       height: 100px;
       height: 400px;
   }
     
-    .about-action-1::before {
-      content: "";
-      width: 100%;
-      height: 400px;
-      border-radius: 50px;
-      border: 1px solid rgb(3, 3, 3);
-      position: absolute;
-      bottom: 15px;
-      right: 9px;
-      z-index: -1;
-  }
+
   }
   .about-icon-1 {
   

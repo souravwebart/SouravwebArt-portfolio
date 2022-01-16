@@ -5,6 +5,8 @@ import "../Home/Home.css";
 import "./About.css";
 import "./Aboutcard";
 import "./Carddesign.css";
+import videoBg from './video/bg1.mp4';
+
 
 import Aboutcards from './Aboutcard';
 import "./Carddesign";
@@ -30,6 +32,8 @@ function About() {
 
     });
     return (
+        <>
+        <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
         <div className="About-section">
              <div className="animationskilltext">
                 <img src="/images/html.png" alt="html"></img>
@@ -43,7 +47,6 @@ function About() {
                 <img src="/images/mysql.png" alt="mysql"></img>
                 <img src="/images/mongodb.png" alt="mongodb"></img>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099FF" fillOpacity="1" d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,202.7C420,224,480,256,540,266.7C600,277,660,267,720,218.7C780,171,840,85,900,69.3C960,53,1020,107,1080,144C1140,181,1200,203,1260,186.7C1320,171,1380,117,1410,90.7L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
             <div className="container aboutclass">
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-12 Aboutscreentop">
@@ -86,7 +89,7 @@ function About() {
        
         </div>
 
-
+</>
     )
 }
 

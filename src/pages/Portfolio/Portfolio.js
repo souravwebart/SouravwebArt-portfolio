@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 import Portfoliocard from "./Portfoliocard";
 import Worklists from "./Worklist";
 import "./Animation.css";
+import videoBg from './video/sea.mp4';
+
 
 function PortFoliolist(worklist) {
     return (
@@ -17,9 +19,9 @@ function PortFoliolist(worklist) {
     )
 }
 function Portfolio() {
-    const [visible, setVisible] = useState(8)
+    const [visible, setVisible] = useState(9)
     const showMoreWorks = () => {
-        setVisible(prevValue => prevValue + 4);
+        setVisible(prevValue => prevValue + 3);
     };
     const [state] = React.useState({
         FirstTitle: "My",
@@ -28,6 +30,8 @@ function Portfolio() {
         image: "/images/souravdesign.png",
     })
     return (
+        <>
+        <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
         <div className="portfolio-section">
         <div className="animationskilltext">
                         <img src="/images/html.png" alt="html"></img>
@@ -82,6 +86,7 @@ function Portfolio() {
                 <button style={{ display: visible >= Worklists.length ? 'none' : 'hidden' }} className="loadmorebtn" onClick={showMoreWorks}>Load More</button>
                 </div>
         </div>
+        </>
 
     )
 }
