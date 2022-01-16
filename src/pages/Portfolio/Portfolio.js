@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Portfoliocard from "./Portfoliocard";
 import Worklists from "./Worklist";
 import "./Animation.css";
-import videoBg from './video/sea.mp4';
+import videoBg from './video/bg1.gif';
 
 
 function PortFoliolist(worklist) {
@@ -31,7 +31,8 @@ function Portfolio() {
     })
     return (
         <>
-        <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
+        // <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
+        <img id="video3" src={videoBg} alt="background"></img>
         <div className="portfolio-section">
         <div className="animationskilltext">
                         <img src="/images/html.png" alt="html"></img>

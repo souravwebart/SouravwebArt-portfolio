@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4648e183.chunk.css",
-    "main.js": "/static/js/main.339d23ff.chunk.js",
-    "main.js.map": "/static/js/main.339d23ff.chunk.js.map",
+    "main.js": "/static/js/main.e6253a5d.chunk.js",
+    "main.js.map": "/static/js/main.e6253a5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.061e9214.js",
     "runtime-main.js.map": "/static/js/runtime-main.061e9214.js.map",
     "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
@@ -12,15 +12,15 @@
     "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
     "static/css/main.4648e183.chunk.css.map": "/static/css/main.4648e183.chunk.css.map",
     "static/js/2.5fbed98e.chunk.js.LICENSE.txt": "/static/js/2.5fbed98e.chunk.js.LICENSE.txt",
-    "static/media/bg1.217bc138.mp4": "/static/media/bg1.217bc138.mp4",
-    "static/media/Home.css": "/static/media/cleintslogo.616e3246.png",
-    "static/media/sea.a50f24ce.mp4": "/static/media/sea.a50f24ce.mp4"
+    "static/media/bg.5e9a5a44.gif": "/static/media/bg.5e9a5a44.gif",
+    "static/media/bg1.6290e135.gif": "/static/media/bg1.6290e135.gif",
+    "static/media/Home.css": "/static/media/cleintslogo.616e3246.png"
   },
   "entrypoints": [
     "static/js/runtime-main.061e9214.js",
     "static/css/2.27dd871e.chunk.css",
     "static/js/2.5fbed98e.chunk.js",
     "static/css/main.4648e183.chunk.css",
-    "static/js/main.339d23ff.chunk.js"
+    "static/js/main.e6253a5d.chunk.js"
   ]
 }

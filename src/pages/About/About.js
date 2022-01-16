@@ -5,7 +5,7 @@ import "../Home/Home.css";
 import "./About.css";
 import "./Aboutcard";
 import "./Carddesign.css";
-import videoBg from './video/bg1.mp4';
+import videoBg from './video/bg.gif';
 
 
 import Aboutcards from './Aboutcard';
@@ -33,7 +33,8 @@ function About() {
     });
     return (
         <>
-        <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
+        // <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
+        <img id="video2" src={videoBg} alt="background"></img>
         <div className="About-section">
              <div className="animationskilltext">
                 <img src="/images/html.png" alt="html"></img>

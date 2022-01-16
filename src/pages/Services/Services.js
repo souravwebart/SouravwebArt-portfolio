@@ -4,7 +4,7 @@ import "./Services.css";
 import { NavLink } from 'react-router-dom';
 import Servicelists from "./Servicelist";
 import Servicesection from "./Servicesection";
-import videoBg from './video/bg1.mp4';
+import videoBg from './video/bg.gif';
 
 
 function servicedetails(Servicelist){
@@ -25,7 +25,8 @@ function Services() {
     })
     return (
         <>
-        <video autoPlay loop muted id="video4"><source src={videoBg} type='video/mp4'/></video>
+        // <video autoPlay loop muted id="video4"><source src={videoBg} type='video/mp4'/></video>
+        <img id="video4" src={videoBg} alt="background"></img>
         <div className="inner-page-banner inner-page-banner-bg">
        <div className="animationskilltext">
                         <img src="/images/html.png" alt="html"></img>

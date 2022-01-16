@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import { NavLink } from 'react-router-dom';
 import Social from "./Social";
-import videoBg from './video/bg1.mp4';
+import videoBg from './video/bg.gif';
 
 
 
@@ -15,7 +15,8 @@ function Home() {
     });
     return (
         <>
-        <video autoPlay loop muted id="video"><source src={videoBg} type='video/mp4'/></video>
+        // <video autoPlay loop muted id="video"><source src={videoBg} type='video/mp4'/></video>
+        <img id="video" src={videoBg} alt="background"></img>
         <div className="home-top">
   <div className="animationskilltext">
                         <img src="/images/html.png" alt="html"></img>

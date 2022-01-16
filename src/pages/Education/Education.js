@@ -5,7 +5,7 @@ import EduardDesisn from "./Educarddesisn";
 import EducationTrainingLists from "./Educationlist";
 import Coursecard from "./Coursecard";
 import CourseLists from "./Courselist";
-import videoBg from './video/bg1.mp4';
+import videoBg from './video/bg.gif';
 
 
 
@@ -54,7 +54,8 @@ function Education() {
 
     return (
         <>
-            <video autoPlay loop muted id="video1"><source src={videoBg} type='video/mp4' /></video>
+            // <video autoPlay loop muted id="video1"><source src={videoBg} type='video/mp4' /></video>
+            <img id="video1" src={videoBg} alt="background"></img>
             <div>
                 <div className="education-section">
                     <div className="animationskilltext">

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css";
-import videoBg from './video/bg1.mp4';
+import videoBg from './video/bg.gif';
 
 
 function Contact() {
@@ -12,7 +12,8 @@ function Contact() {
     });
     return (
         <>
-        <video autoPlay loop muted id="video5"><source src={videoBg} type='video/mp4'/></video>
+        // <video autoPlay loop muted id="video5"><source src={videoBg} type='video/mp4'/></video>
+        <img id="video5" src={videoBg} alt="background"></img>
         <div className="contact">
             <div className="container">
                     <div className="contact-top">
