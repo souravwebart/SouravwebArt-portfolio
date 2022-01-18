@@ -52,7 +52,7 @@ function About() {
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-12 Aboutscreentop">
                         <h1 className="abouth1">{state.FirstTitle}<span className="h1-primarylasttitle">{state.LastTitle}</span></h1>
-                        <img className="Aboutme" src="./images/souravguptaprofile1.png" alt="Sourav Gupta"></img>
+                        <img className="Aboutme" src="./images/souravgupta3.jpg" alt="Sourav Gupta"></img>
                         <p className="abouth2">{state.Text}</p>
                         <button className="aboutbtn"><NavLink className="aboutbutton container" to="/contact" exact> Contact Me</NavLink></button>
                     </div>

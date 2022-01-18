@@ -11,7 +11,7 @@ function Home() {
         FirstTitle: "Sourav",
         LastTitle: " Gupta",
         Text: "I am a full-stack web developer, Wordpress Developer and Search Engine Optimization (SEO) specialist. Feel free to take a look at my latest projects on the web portfolio page.",
-        image: "/images/sourav1.png",
+        image: "/images/souravgupta2.png",
     });
     return (
         <>

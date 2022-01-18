@@ -21,7 +21,7 @@ function servicedetails(Servicelist){
 
 function Services() {
     const [state] = React.useState({
-        Images: "./images/souravguptaprofile2.png",
+        Images: "./images/souravgupta4.jpg",
     })
     return (
         <>

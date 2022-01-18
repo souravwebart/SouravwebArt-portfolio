@@ -152,6 +152,7 @@ to {
   justify-content: center;
   text-align: center;
   align-items: center;
+  border-radius: 100%;
 }
 .abouth2{
   text-align: center;

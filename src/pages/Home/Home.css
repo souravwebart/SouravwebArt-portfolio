@@ -44,7 +44,7 @@ padding: 10px;
   background-image: -webkit-linear-gradient(265deg, #0a2b46 39%, #080808 51%);
 } */
 .Hometopimage{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: block;
     margin-left: auto;
@@ -329,6 +329,8 @@ padding: 10px;
 .social-middle{
   display: flex;
   justify-items: left;
+  margin-bottom: 40px;
+  
 }
 @media only screen and (max-width: 1599px){
   .Homesvg {
