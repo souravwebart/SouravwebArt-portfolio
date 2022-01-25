@@ -12,8 +12,6 @@ function Contact() {
     });
     return (
         <>
-        // <video autoPlay loop muted id="video5"><source src={videoBg} type='video/mp4'/></video>
-        <img id="video5" src={videoBg} alt="background"></img>
         <div className="contact">
             <div className="container">
                     <div className="contact-top">

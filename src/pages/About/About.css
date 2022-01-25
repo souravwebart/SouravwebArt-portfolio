@@ -1,6 +1,6 @@
-/* .About-section{
+.About-section{
     background-image: -webkit-linear-gradient(265deg, #0a2b46 37%, #080808 50%);
-} */
+}
 
 #video2{
   width: 100%;
@@ -195,4 +195,5 @@ to {
 }
 .about-details-section{
   padding-bottom: 80px;
+  padding-top: 80px;
 }

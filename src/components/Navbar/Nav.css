@@ -4,7 +4,8 @@
   height: 80px;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 999;
+  background-color: #000;
 }
   .mobile-menu{
     color: rgb(45, 184, 240);
@@ -134,8 +135,8 @@
   height: 80px;
   position: fixed;
   top: 0;
-  z-index: 1;
-  background-color: #00001c54 !important;
+  z-index: 999;
+  background-color: #000000 !important;
 }
 }
 

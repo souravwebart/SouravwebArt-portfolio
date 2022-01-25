@@ -54,8 +54,6 @@ function Education() {
 
     return (
         <>
-            // <video autoPlay loop muted id="video1"><source src={videoBg} type='video/mp4' /></video>
-            <img id="video1" src={videoBg} alt="background"></img>
             <div>
                 <div className="education-section">
                     <div className="animationskilltext">

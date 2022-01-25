@@ -1,6 +1,6 @@
-/* .inner-page-banner-bg{
+.inner-page-banner-bg{
     background-image: -webkit-linear-gradient(297deg, #011a2e 30%, #074866 52%);
-  } */
+  }
   #video4{
     width: 100%;
     height: 100%;
@@ -72,15 +72,17 @@ border-style: solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
-  margin: 130px auto;
+  margin: 0px auto;
+  padding: 130px 0px;
 }
 @media only screen and (max-width:991px) {
     .Servicecarddesign{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 100%;
-        margin: 70px auto;
-    }
+        margin: 0px auto;
+        padding: 70px 0px;    
+      }
     .ecommerceimage{
       width: 50%;
       display: block;
@@ -96,8 +98,9 @@ border-style: solid;
       display: grid;
       grid-template-columns: 1fr;
       width: 100%;
-      margin: 70px auto;
-    }
+      margin: 0px auto;
+      padding: 70px 0px;
+        }
     .ecommerceimage{
       width: 50%;
       display: block;

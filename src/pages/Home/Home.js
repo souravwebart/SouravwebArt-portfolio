@@ -15,8 +15,7 @@ function Home() {
     });
     return (
         <>
-        // <video autoPlay loop muted id="video"><source src={videoBg} type='video/mp4'/></video>
-        <img id="video" src={videoBg} alt="background"></img>
+     
         <div className="home-top">
   <div className="animationskilltext">
                         <img src="/images/html.png" alt="html"></img>

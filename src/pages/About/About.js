@@ -33,8 +33,6 @@ function About() {
     });
     return (
         <>
-        // <video autoPlay loop muted id="video2"><source src={videoBg} type='video/mp4'/></video>
-        <img id="video2" src={videoBg} alt="background"></img>
         <div className="About-section">
              <div className="animationskilltext">
                 <img src="/images/html.png" alt="html"></img>
